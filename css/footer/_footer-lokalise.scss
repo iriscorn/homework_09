@@ -1,0 +1,27 @@
+.footer-lokalise {
+    width: $main_size-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    .lokalise-container {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        .footer-wrapp {
+            .lokalise-img {
+                display: block;
+            }
+        }
+        .lokalise-text {
+            @include fonts(0.75rem, 400, 15px);
+        }
+    }
+    .lokalise-item {
+        padding-right: 76px;
+        .additional-text {
+            @include fonts(0.75rem, 400, 15px);
+            display: block;
+        }
+    }
+}

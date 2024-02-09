@@ -1,0 +1,52 @@
+.footer-section {
+    width: $main_size-width;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $black;
+    padding: 95px 0;
+    .case-studies {
+        width: 30%;
+        .case-studies__title {
+            @include fonts(2.5rem, 600, 50px);
+        }
+        .case-studies__wrapp {
+            margin-top: 30px;
+            .case-studies__img {
+                display: block;
+            }
+        }
+        .case-studies__text {
+            @include fonts(1.25rem, 400, 30px);
+            padding: 13px 0;
+        }
+        .case-studies__link {
+            @include fonts(1.25rem, 600, 30px);
+            color: $black;
+            &:hover {
+                color: $secondary_color;
+            }
+        }
+    }
+    .info {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        .info__container {
+            .info__title {
+                @include fonts(1.25rem, 600, 25px);
+                padding-bottom: 21px
+            }
+            .info__link {
+                @include fonts(0.9375rem, 400, 15px);
+                display: block;
+                color: $black;
+                padding-bottom: 15px;
+                white-space: nowrap;
+                &:hover {
+                    color: $secondary_color;
+                }
+            }
+        }
+    }
+}

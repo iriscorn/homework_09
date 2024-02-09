@@ -1,0 +1,40 @@
+.services {
+    width: 69%;
+    margin: 90px auto 150px;
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 137px;
+        margin:100px 0 150px;
+        .container__item {
+            width: 50%;
+            .container__title {
+                font-size: 50px;
+                font-weight: 600;
+                line-height: 60px;
+            }
+            .container__text {
+                padding: 30px 0;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            .container__link {
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 30px;
+                color: #000;
+                &:hover {
+                    color: $secondary_color;
+                }
+            }
+        }
+        .container__wrapp {
+            text-align: center;
+            width: 50%;
+            .container__img {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

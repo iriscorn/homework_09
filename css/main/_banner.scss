@@ -1,0 +1,27 @@
+.banner {
+    padding-top: 169px;
+    text-align: center;
+    .banner__title {
+        font-size: 65px;
+        font-weight: 600;
+        line-height: 75px;
+    }
+    .banner__text {
+        font-size: 25px;
+        line-height: 30px;
+        padding-bottom: 25px;
+    }
+    .banner__link {
+        display: block;
+        width: fit-content;
+        margin: 32px auto 162px;
+        padding: 20px;
+        background-color: #FF6336;
+        color: #fff;
+        font-weight: 600;
+        &:hover {
+            background-color: $black;
+            transition: all 1s;
+        }
+    }
+}

@@ -1,0 +1,46 @@
+.localization-team {
+    padding-bottom: 187px;
+    .localization-team-title {
+        @include fonts(3.125rem, 600, 60px);
+        text-align: center;
+        padding: 154px 0 75px;
+    }
+    .localization-team-container {
+        width: $main_size-width;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        .localization-team-container__item {
+            width: calc(100% / 3);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 25px;
+            .localization-team-container__wrapp {
+                height: 201px;
+                display: flex;
+                align-items: center;
+                .localization-team-container__img {
+                    display: block;
+                }
+            }
+            .localization-team-container__title {
+                @include fonts(1.875rem, 600, 40px);
+            }
+            .localization-team-container__text {
+                @include fonts(1.25rem, 400, 30px);
+            }
+            .localization-team-container__link {
+                @include fonts(1.25rem, 400, 30px);
+                text-decoration: underline;
+                color: $black;
+                &:hover {
+                    color: $secondary_color;
+                }
+            }
+        }
+    }
+}

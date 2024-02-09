@@ -1,0 +1,24 @@
+.quote {
+    background-color: $white--spec;
+    display: flex;
+    gap: 85px;
+    padding: 53px 15% 105px;
+    .quote-container {
+        .quote-text {
+            @include fonts(1.875rem, 400, 40px);
+        }
+        .quote-element {
+            display: block;
+            @include fonts(0.9375rem, 400, 25px);
+            padding: 25px 0 5px;
+        }
+        .quote-img {
+            display: block;
+        }
+    }
+    .quote-wrapp {
+        .photo {
+            display: block;
+        }
+    }
+}

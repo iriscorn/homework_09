@@ -1,0 +1,61 @@
+// Fonts
+@font-face {
+	font-family: "Graphik";
+	src: url("fonts/Graphik-Regular.eot");
+	src: local("Graphik Regular"), local("Graphik-Regular"),
+		url("fonts/Graphik-Regular.eot?#iefix") format("embedded-opentype"),
+		url("fonts/Graphik-Regular.woff2") format("woff2"),
+		url("fonts/Graphik-Regular.woff") format("woff"),
+		url("fonts/Graphik-Regular.ttf") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Graphik";
+	src: url("fonts/Graphik-Semibold.eot");
+	src: local("Graphik Semibold"), local("Graphik-Semibold"),
+		url("fonts/Graphik-Semibold.eot?#iefix") format("embedded-opentype"),
+		url("fonts/Graphik-Semibold.woff2") format("woff2"),
+		url("fonts/Graphik-Semibold.woff") format("woff"),
+		url("fonts/Graphik-Semibold.ttf") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+// Reset
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+    text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+html {
+	font-size: 16px;
+}
+
+body {
+	color: $black;
+	font-family: "Graphik", sans-serif;
+	font-size: 1rem;
+}
+
+.text__link {
+	text-decoration: underline;
+	color: $black;
+	&:hover {
+		color: $secondary_color;
+	}
+}
+
+.footer {
+	background-color: $white--add;
+}

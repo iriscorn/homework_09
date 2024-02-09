@@ -1,0 +1,28 @@
+// variable
+$white: #fff;
+$white--mod: #CCC;
+$white--spec: #C9E8F2;
+$white--add: #EEEEEE;
+$black: #000;
+$secondary_color: #FF6336;
+$secondary_color--mod: #FF9C7D;
+$secondary_color--add: #FFF8E4;
+$secondary_color--spec: #DABC98;
+$main_size-width: 69%;
+
+// mixins
+@mixin fonts($size, $weight, $line) {
+    font-size: $size;
+    font-weight: $weight;
+    line-height: $line;
+}
+
+@mixin btn {
+    width: 160px;
+    background-color: $secondary_color;
+    display: block;
+    padding: 21px 0;
+    color: $white;
+    font-weight: 600;
+    text-align: center;
+}

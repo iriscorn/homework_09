@@ -1,0 +1,20 @@
+@import "tools";
+@import "global";
+
+// header
+@import "header/section-nav";
+@import "header/section-primary";
+
+// main
+@import "main/logo";
+@import "main/services";
+@import "main/lokalise";
+@import "main/localization-team";
+@import "main/quote";
+@import "main/software";
+@import "main/banner";
+@import "main/secondary-logo";
+
+// footer
+@import "footer/footer_section";
+@import "footer/footer-lokalise";

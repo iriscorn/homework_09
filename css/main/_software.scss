@@ -1,0 +1,30 @@
+.software {
+    padding: 85px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DABC98;
+    .software-container {
+        display: flex;
+        align-items: center;
+        gap: 0 67px;
+        .software-title {
+            @include fonts(2.1875rem, 600, 50px);
+        }
+        .software-wrapp {
+            padding: 25px 0;
+            .icon {
+                display: block;
+                padding: 15px 0;
+            }
+            .software-text {
+                @include fonts(0.9375rem, 400, 1px);
+                text-transform: uppercase;
+            }
+        }
+        &:nth-child(2) {
+            border-left: 1px solid $black;
+            padding-left: 70px;
+        }
+    }
+}
